@@ -1,0 +1,715 @@
+@prefix d:    <http://fake.com/data/> .
+@prefix dbo:  <http://dbpedia.org/ontology/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbp: <http://dbpedia.org/property/>.
+
+
+<https://en.wikipedia.org/wiki/BTS>
+        rdf:type            dbo:Band;
+        dbo:abstract        "\n\t\tBTS, also known as the Bangtan Boys, is a seven-member South Korean boy band that was formed in 2010 and debuted in 2013 under Big Hit Entertainment.The septetâ€”composed of Jin, Suga, J-Hope, RM, Jimin, V, and Jungkookâ€”co-writes and co-produces much of their own output. Originally a hip hop group, their musical style has evolved to include a wide range of genres. Their lyrics, often focused on personal and social commentary, touch on the themes of mental health, troubles of school-age youth and coming of age, loss, the journey towards loving oneself, and individualism. Their work also often references literature and psychological concepts and includes an alternative universe storyline. After debuting in 2013 with their single album 2 Cool 4 Skool, BTS released their first Korean-language studio album, Dark and Wild, and Japanese-language studio album, Wake Up, in 2014.The group's second Korean studio album, Wings (2016), was their first to sell one million copies in South Korea. By 2017, BTS crossed into the global music market, leading the Korean Wave into the United States and breaking numerous sales records. They became the first Korean group to receive a certification from the Recording Industry Association of America (RIAA) for their single \"Mic Drop\", as well as the first Korean act to top the US Billboard 200 chart with their studio album Love Yourself: Tear (2018). BTS also became the fastest group since the Beatles to earn four US number-one albums, doing so in less than two years, and Love Yourself: Answer (2018) was the first Korean album certified platinum by the RIAA. In 2020, BTS became the first all-South Korean act to reach number one on the Billboard Global 200 and US Billboard Hot 100 with their Grammy-nominated single \"Dynamite\". Their follow-up releases \"Savage Love\", \"Life Goes On\", \"Butter\", and \"Permission to Dance\" made BTS the fastest act to accumulate five US number-one singles since Michael Jackson. Having sold over 20 million albums on the Gaon Music Chart, BTS is the best-selling artist in South Korean history and holds the best-selling album in South Korea with Map of the Soul: 7. They are the first Asian and non-English speaking act to be named IFPI Global Recording Artist of the Year (2020), to chart on Billboard's Top Touring Artists of the 2010s (placing at number 45), and to headline and sell out Wembley Stadium and Rose Bowl Stadium (Love Yourself World Tour in 2019). Featured on Time's international cover as \"Next Generation Leaders\" and dubbed \"Princes of Pop\", BTS has also appeared on the magazine's lists of the 25 most influential people on the internet (2017â€“2019) and the 100 most influential people in the world (2019). The group's numerous accolades include six American Music Awards, nine Billboard Music Awards, 24 Golden Disk Awards, and nominations for a Grammy Award and a Brit Award. Outside of music, they partnered with UNICEF to establish the Love Myself anti-violence campaign, addressed the United Nations 73rd and 75th General Assemblies, and became the youngest ever recipients of the Order of Cultural Merit from the President of South Korea due to their contributions in spreading Korean culture and language.\n\t"@en ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Kim_Seok-jin> , <https://en.wikipedia.org/wiki/Suga_(rapper)> , <https://en.wikipedia.org/wiki/J-Hope> , <https://en.wikipedia.org/wiki/RM_(rapper)> , <https://en.wikipedia.org/wiki/Jimin_(singer,_born_1995)> , <https://en.wikipedia.org/wiki/V_(singer)> , <https://en.wikipedia.org/wiki/Jungkook> ;
+        dbp:yearsActive     "2013";
+        dbp:genre           "K-pop";
+        d:facebookAccount   <https://www.facebook.com/bangtan.official> ;
+        d:instagramAccount  <https://www.instagram.com/bts.bighitofficial/> ;
+        d:twitterAccount    <https://twitter.com/bts_bighit> ;
+        foaf:image          <https://i.pinimg.com/originals/32/15/09/32150941b6caa78ab241f9955b75e28d.jpg> ;
+        foaf:name           "Bangtan Boys (BTS)".
+
+<https://en.wikipedia.org/wiki/Kim_Seok-jin>
+        dbo:birthDate  "1992-12-04";
+        dbo:alias      "Jin" ;
+        d:role         "Vocals" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/3/35/Jin_for_Dispatch_%22Boy_With_Luv%22_MV_behind_the_scene_shooting%2C_15_March_2019_01_%28cropped%29.jpg> ;
+        foaf:name      "Kim Seok-jin" ;
+        dbp:height     "179";
+        dbp:birthPlace "Gwacheon".
+
+<https://en.wikipedia.org/wiki/Suga_(rapper)>
+        dbo:birthDate  "1993-03-09";
+        dbo:alias      "Suga";
+        d:role         "Rapper" ;
+        foaf:image     <https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/09/07/336100991.jpeg> ;
+        foaf:name      "Min Yoon-gi" ;
+        dbp:height     "176";
+        dbp:birthPlace "Buk District".
+
+<https://en.wikipedia.org/wiki/J-Hope>
+        dbo:birthDate  "1994-02-18" ;
+        dbo:alias       "J-Hope" ;
+        d:role         "Rapper" ;
+        foaf:image     <https://i.pinimg.com/750x/dd/fe/bd/ddfebd3c7b96f1fc5f5a5c8792518554.jpg> ;
+        foaf:name      "Jung Ho-seok" ;
+        dbp:height      "177" ;
+        dbp:birthPlace "Buk District, Gwangju, South Korea".
+
+<https://en.wikipedia.org/wiki/RM_(rapper)>
+        dbo:birthDate  "1994-09-12" ;
+        dbo:alias    "RM" ;
+        d:role         "Rapper" ;
+        foaf:image     <https://asset.kompas.com/crops/ycbWnFAF8J_PhaOqVxo-xLv_vtY=/0x0:900x600/750x500/data/photo/2020/03/10/5e6766d27d51b.png> ;
+        foaf:name      "Kim Nam-joon" ;
+        dbp:height "181" ;
+        dbp:birthPlace "Dongjak-gu, Seoul, South Korea".
+
+<https://en.wikipedia.org/wiki/Jimin_(singer,_born_1995)>
+        dbo:birthDate  "1995-10-13" ;
+        dbo:alias    "Jimin" ;
+        d:role         "Lead Vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/a/a5/Park_Ji-min_on_the_Billboard_Music_Awards_red_carpet%2C_1_May_2019.jpg> ;
+        foaf:name      "Park Ji-min" ;
+        dbp:height "175" ;
+        dbp:birthPlace "Geumjeong District, Busan, South Korea".
+
+<https://en.wikipedia.org/wiki/V_(singer)>
+        dbo:birthDate  "1995-12-30" ;
+        dbo:alias    "V" ;
+        d:role         "Vocals" ;
+        foaf:image     <https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/07/01/2976084305.jpeg> ;
+        foaf:name      "Kim Tae-hyung" ;
+        dbp:height "179" ;
+        dbp:birthPlace "Seo District, Daegu, South Korea".
+
+<https://en.wikipedia.org/wiki/Jungkook>
+        dbo:birthDate  "1997-09-01" ;
+        dbo:alias    "Jungkook" ;
+        d:role         "Main Vocals" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/4/40/Jungkook_x_Samsung_Galaxy_August_2021.png> ;
+        foaf:name      "Jeon Jung-kook" ;
+        dbp:height "178" ;
+        dbp:birthPlace "Busan, South Korea".
+
+<https://en.wikipedia.org/wiki/Yellow_Claw_(DJs)>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "Yellow Claw is a Dutch DJ and record production duo from Amsterdam consisting of Jim Taihuttu, based in Bali and Nils Rondhuis, based in Amsterdam. The duo's music is a mix of a wide range of genres and often incorporates elements from trap, hip hop, dubstep, hardstyle and moombahton." ;
+        dbo:bandMember      <https://nl.wikipedia.org/wiki/Jim_Taihuttu> , <https://infofamouspeople.com/famous/nils-rondhuis.htm> ;
+        dbp:yearsActive     "2010";
+        dbp:genre           "EDM";
+        d:facebookAccount   <https://www.facebook.com/yellowclaw/> ;
+        d:instagramAccount  <https://www.instagram.com/yellowclaw/> ;
+        d:twitterAccount    <https://twitter.com/YELLOWCLAW/> ;
+        foaf:image          <https://awsimages.detik.net.id/community/media/visual/2017/03/02/487e0eca-9395-46cb-a2f7-225919893ace_43.jpg?w=1000> ;
+        foaf:name           "Yellow Claw (DJs)" .
+
+<https://nl.wikipedia.org/wiki/Jim_Taihuttu>
+        dbo:birthDate  "1981-07-06" ;
+        dbo:alias      "Jim Taihuttu";
+        d:role         "DJ" ;
+        foaf:image     <https://www.satumaluku.id/wp-content/uploads/2018/11/jim-taihuttu.jpg> ;
+        foaf:name      "Jim Taihuttu" ;
+        dbp:height      "180";
+        dbp:birthPlace  "Venio, Holand".
+
+<https://infofamouspeople.com/famous/nils-rondhuis.htm>
+        dbo:birthDate  "1987-09-06" ;
+        dbo:alias    "Nils Rondhuis" ;
+        d:role         "DJ" ;
+        foaf:image     <https://i.pinimg.com/originals/bb/5d/60/bb5d6059c30f9539433e4723a43c86b3.jpg> ;
+        foaf:name      "Nils Rondhuis" ;
+        dbp:height "183" ;
+        dbp:birthPlace  "Holand".
+
+<https://en.wikipedia.org/wiki/Twenty_One_Pilots>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "Twenty One Pilots (stylized in all lowercase or as twenty Ã¸ne pilÃ¸ts) is an American musical duo from Columbus, Ohio. The band was formed in 2009 by lead vocalist Tyler Joseph along with Nick Thomas and Chris Salih, both of whom left in 2011. Since their departure, the line-up has consisted of Joseph and drummer Josh Dun. The duo is best known for the singles \"Stressed Out\", \"Ride\", and \"Heathens\". The group received a Grammy Award for Best Pop Duo/Group Performance at the 59th Annual Grammy Awards for \"Stressed Out\". The band independently released two albums, Twenty One Pilots (2009) and Regional at Best (2011), before being signed by record label Fueled by Ramen in 2012. Their label debut, Vessel, was released in 2013 and became the second album in history on which every track received at least a gold certification, making Twenty One Pilots the first band in the history of music to see every song on two albums earn gold or platinum awards. The duo achieved breakthrough success with their fourth album, Blurryface (2015), which produced the successful singles \"Stressed Out\" and \"Ride\" and became the first album in history on which every track received at least a gold certification from the Recording Industry Association of America. The release of the single \"Heathens\" also made the group the first alternative artist in history to have two concurrent top five singles in the Billboard Hot 100 and the third rock act in history to have two singles simultaneously chart in the top five of the Billboard Hot 100, joining the Beatles and Elvis Presley. The duo's fifth studio album, Trench, was released on October 5, 2018. Their sixth studio album, Scaled and Icy, was released on May 21, 2021. The duo also has eight No. 1 songs on the Alternative Songs chart, making them the sixth artist with most number-one songs on the chart, behind Foo Fighters and tying with U2." ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Tyler_Joseph> , <https://en.wikipedia.org/wiki/Josh_Dun> ;
+        dbp:yearsActive           "2009" ;
+        dbp:genre           "Rock" ;
+        d:facebookAccount   <https://www.facebook.com/twentyonepilots/> ;
+        d:instagramAccount  <https://www.instagram.com/twentyonepilots/> ;
+        d:twitterAccount    <https://twitter.com/twentyonepilots/> ;
+        foaf:image          <https://www.cedarstreetaustin.com/wp-content/uploads/2021/03/1-1.jpeg> ;
+        foaf:name           "Twenty One Pilots" .
+
+<https://en.wikipedia.org/wiki/Tyler_Joseph>
+        dbo:birthDate  "1988-12-1" ;
+        dbo:alias    "Jocef" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://akns-images.eonline.com/eol_images/Entire_Site/202083/rs_1200x1200-200903060641-1200-Tyler-Joseph-JR-9320.jpg?fit=around%7C1200:1200output-quality=90crop=1200:1200;center,top> ;
+        foaf:name      "Tyler Robert Joseph" ;
+        dbp:height "175" ;
+        dbp:birthPlace  "Columbus, Ohio, U.S".
+
+<https://en.wikipedia.org/wiki/Josh_Dun>
+        dbo:birthDate  "1988-06-18" ;
+        dbo:alias    "Josh Dun" ;
+        d:role         "Drummer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Josh_Dun_%28cropped%29.jpg/1200px-Josh_Dun_%28cropped%29.jpg> ;
+        foaf:name      "Joshua William Dun" ;
+        dbp:height "178" ;
+        dbp:birthPlace  "Columbus, Ohio, U.S".
+
+<https://en.wikipedia.org/wiki/Against_the_Current_(band)>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "Against The Current (often abbreviated as ATC) is an American pop rock band based in Poughkeepsie, New York, that formed in 2011. The band currently consists of lead vocalist Chrissy Costanza, guitarist Dan Gow, and drummer Will Ferri. The group gained a sizable online following after posting covers of various popular songs on YouTube.The band's first EP, Infinity, was released in May 2014 under their own label. The band followed Infinity with their next EP, Gravity, which was released on February 17, 2015. Shortly afterward, they signed to the record label Fueled by Ramen. Their debut full-length album, In Our Bones was released on May 20, 2016. Their second full-length album, Past Lives was released on September 28, 2018. Their EP, fever, was released on July 23, 2021." ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Chrissy_Costanza> , <https://atcband.fandom.com/wiki/Dan_Gow> , <https://atcband.fandom.com/wiki/Will_Ferri> ;
+        dbp:yearsActive           "2011" ;
+        dbp:genre           "Indie" ;
+        d:facebookAccount   <https://www.facebook.com/againstthecurrentband/> ;
+        d:instagramAccount  <https://www.instagram.com/againstthecurrent/> ;
+        d:twitterAccount    <https://twitter.com/atc_band/> ;
+        foaf:image          <https://creativedisc.com/web/wp-content/uploads/2017/06/againstthecurrent.jpg> ;
+        foaf:name           "Against the Current" .
+
+<https://en.wikipedia.org/wiki/Chrissy_Costanza>
+        dbo:birthDate  "1995-08-23" ;
+        dbo:alias    "Chrissy Costanza" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://www.rocksound.tv/assets/uploads/chrissy_atc_new_yes.jpg> ;
+        foaf:name      "Chrissy Costanza" ;
+        dbp:height "155" ;
+        dbp:birthPlace  "New Jersey, U.S".
+
+<https://atcband.fandom.com/wiki/Dan_Gow>
+        dbo:birthDate  "1995-12-08" ;
+        dbo:alias    "Dan Gow" ;
+        d:role         "Guitarist" ;
+        foaf:image     <https://live.staticflickr.com/2886/8749868783_75e2c5c8ce_b.jpg> ;
+        foaf:name      "Daniel William Gow" ;
+        dbp:height "183" ;
+        dbp:birthPlace  "Lagrangeville, New York".
+
+<https://atcband.fandom.com/wiki/Will_Ferri>
+        dbo:birthDate  "1996-04-25" ;
+        dbo:alias    "Will Ferri" ;
+        d:role         "Drummer" ;
+        foaf:image     <https://pbs.twimg.com/profile_images/469730318069403648/LXfNOOMF.jpeg> ;
+        foaf:name      "William Ferri" ;
+        dbp:height "188" ;
+        dbp:birthPlace  "USA".
+
+<https://en.wikipedia.org/wiki/Jonas_Brothers>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "The Jonas Brothers are an American pop rock band. Formed in 2005, they gained popularity from their appearances on the Disney Channel television network. They consist of three brothers: Kevin Jonas, Joe Jonas, and Nick Jonas. Raised in Wyckoff, New Jersey, the Jonas Brothers moved to Little Falls, New Jersey, in 2005, where they wrote their first record that made its Hollywood Records release. In mid-2008, they starred in the Disney Channel Original Movie Camp Rock and its sequel, Camp Rock 2: The Final Jam. They also starred as Kevin, Joe, and Nick Lucas from the band, JONAS, in their own Disney Channel series Jonas, which was rebranded as Jonas L.A. after the first season and cancelled after the second. The band have released five albums: It's About Time (2006), Jonas Brothers (2007), A Little Bit Longer (2008), Lines, Vines and Trying Times (2009), and Happiness Begins (2019). In 2008, the group was nominated for the Best New Artist award at the 51st Grammy Awards and won the award for Breakthrough Artist at the American Music Awards. As of May 2009, before the release of Lines, Vines and Trying Times, they had sold over eight million albums worldwide. After a hiatus during 2010 and 2011 to pursue solo-projects, the group reconciled in 2012 to record a new album, which was cancelled following their break-up on October 29, 2013. They have sold over 17 million albums worldwide as of 2013. Six years following their split, the group reunited with the release of \"Sucker\" on March 1, 2019. The song became the 34th song in history to debut at number one on the Billboard Hot 100, and became the Jonas Brothers' first number one single on the chart. Their fifth studio album, Happiness Begins, was released on June 7, 2019, topping the US Billboard 200." ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Nick_Jonas> , <https://en.wikipedia.org/wiki/Joe_Jonas> , <https://en.wikipedia.org/wiki/Kevin_Jonas> ;
+        dbp:yearsActive           "2005" ;
+        dbp:genre           "Pop" ;
+        d:facebookAccount   <https://www.facebook.com/JonasBrothers/> ;
+        d:instagramAccount  <https://www.instagram.com/jonasbrothers/> ;
+        d:twitterAccount    <https://twitter.com/jonasbrothers/> ;
+        foaf:image          <https://www.mainmain.id/uploads/post/2021/09/18/Jonas_Brothers_Nick_Kevin_Joe_Jonas_Whos_In_Your_Head_Lagu_Baru_mainmain.id_.jpg> ;
+        foaf:name           "Jonas Brothers" .
+<https://en.wikipedia.org/wiki/Nick_Jonas>
+        dbo:birthDate  "1992-09-16" ;
+        dbo:alias    "Nick Jonas" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://img.okezone.com/content/2021/05/17/33/2411285/alami-cedera-serius-nick-jonas-dilarikan-ke-rumah-sakit-ezPz2tEmOg.jpeg> ;
+        foaf:name      "Nicholas Jerry Jonas" ;
+        dbp:height "170" ;
+        dbp:birthPlace  "Dallas, Texas, U.S".
+
+<https://en.wikipedia.org/wiki/Joe_Jonas>
+        dbo:birthDate  "1989-08-15" ;
+        dbo:alias    "Joe Jonas" ;
+        d:role         "Guitarist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/e/e5/Joe_Jonas%2C_2010.jpg> ;
+        foaf:name      "Joseph Adam Jonas" ;
+        dbp:height "172" ;
+        dbp:birthPlace  "Casa Grande, Arizona, U.S".
+
+<https://en.wikipedia.org/wiki/Kevin_Jonas>
+        dbo:birthDate  "1987-11-05" ;
+        dbo:alias    "Kevin Jonas" ;
+        d:role         "Guitarist" ;
+        foaf:image     <https://static.wikia.nocookie.net/disney/images/4/43/Kevin_Jonas.jpg/revision/latest?cb=20180603192802> ;
+        foaf:name      "Paul Kevin Jonas II" ;
+        dbp:height "171" ;
+        dbp:birthPlace  "Teaneck, New Jersey, U.S".
+
+<https://en.wikipedia.org/wiki/Panic!_at_the_Disco>
+        rdf:type             dbo:Band ;
+        dbo:abstract        "\n\t\tPanic! at the Disco is the solo project of American musician Brendon Urie. \n\t\tIt was originally a pop rock band from Las Vegas, Nevada, formed in 2004 by childhood friends Urie, Ryan Ross, Spencer Smith, and Brent Wilson. \n\t\tThey recorded their first demos while they were in high school. \n\t\tShortly after, the band recorded and released their debut studio album, A Fever You Can't Sweat Out (2005). \n\t\tPopularized by the second single, \"I Write Sins Not Tragedies\", the album was certified triple platinum in the US. \n\t\tIn 2006, founding bassist Brent Wilson was fired from the band during an extensive world tour and subsequently replaced by Jon Walker. \n\t\tThe band's second album, Pretty. Odd. (2008), was preceded by the single \"Nine in the Afternoon\". That album marked a significant departure from the sound of the band's debut. \n\t\tRoss and Walker, who favored the band's new direction, departed because Urie and Smith wanted to make further changes to the band's style. \n\t\tRoss and Walker subsequently formed a new band, the Young Veins, leaving Urie and Smith as the sole remaining members of Panic! at the Disco. \n\t\tContinuing as a duo, Urie and Smith released a new single, \"New Perspective\", for the movie Jennifer's Body, and recruited bassist Dallon Weekes and guitarist Ian \n\t\tCrawford as touring musicians for live performances. Weekes was later inducted into the band's lineup as a full-time member in 2010. The band's third studio album, \n\t\tVices and Virtues (2011), was recorded solely by Urie and Smith in 2010, produced by John Feldmann and Butch Walker. Crawford departed once the tour cycle for Vices and \n\t\tVirtues ended in 2012. As a three-piece, Urie, Smith, and Weekes recorded and released the band's fourth studio album, Too Weird to Live, Too Rare to Die!, in 2013. \n\t\tPrior to the release of the album, Smith unofficially left the band due to health and drug-related issues, leaving Urie and Weekes as the remaining members. \n\t\tThe duo recruited guitarist Kenneth Harris and drummer Dan Pawlovich as touring musicians for live performances. \n\t\tIn 2015, Smith officially left the band after not performing live with them since his departure in 2013. \n\t\tShortly thereafter, Weekes reverted to being a touring member once again, resulting in Panic! becoming Urie's solo project. In April 2015, \"Hallelujah\" was released \n\t\tas the first single from Panic! at the Disco's fifth studio album, Death of a Bachelor (2016). In December 2017, Weekes officially announced his departure from the band. \n\t\tIn March 2018, Panic! at the Disco released \"Say Amen (Saturday Night)\", the lead single from its sixth studio album, Pray for the Wicked (2018), which was released in June.\n\t" ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Ryan_Ross> , <https://en.wikipedia.org/wiki/Dallon_Weekes> , <https://en.wikipedia.org/wiki/Jon_Walker> , <https://en.wikipedia.org/wiki/Ian_Crawford_(musician)> , <https://en.wikipedia.org/wiki/Spencer_Smith_(musician)> , <https://en.wikipedia.org/wiki/Brendon_Urie> ;
+        dbp:yearsActive           "2004" ;
+        dbp:genre           "Pop Rock" ;
+        d:facebookAccount   <https://www.facebook.com/panicatthedisco> ;
+        d:instagramAccount  <https://www.instagram.com/panicatthedisco/> ;
+        d:twitterAccount    <https://twitter.com/panicatthedisco> ;
+        foaf:image          <https://i.redd.it/uhcoddlvphvy.png> ;
+        foaf:name           "Panic! at the Disco" .
+
+<https://en.wikipedia.org/wiki/Ryan_Ross>
+        dbo:birthDate  "1986-08-30" ;
+        dbo:alias    "Ryan Ross" ;
+        d:role         "Singer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/4/4c/Ryro_tour_%28cropped%29.png> ;
+        foaf:name      "George Ryan Ross III" ;
+        dbp:height "180" ;
+        dbp:birthPlace  "Las Vegas, Nevada, U.S".
+
+<https://en.wikipedia.org/wiki/Dallon_Weekes>
+        dbo:birthDate  "1981-05-01" ;
+        dbo:alias    "Dallon Weekes" ;
+        d:role         "Bassist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Panic_at_the_Disco_Im_Park_2016_%285_von_11%29.jpg/300px-Panic_at_the_Disco_Im_Park_2016_%285_von_11%29.jpg> ;
+        foaf:name      "Dallon James Weekes" ;
+        dbp:height "190" ;
+        dbp:birthPlace  "Verona, Missouri, U.S".
+
+<https://en.wikipedia.org/wiki/Jon_Walker>
+        dbo:birthDate  "1985-09-17" ;
+        dbo:alias    "Jon Walker" ;
+        d:role         "Bassist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Jwalk7kruark.jpg/220px-Jwalk7kruark.jpg> ;
+        foaf:name      "Jonathan Jacob Walker" ;
+        dbp:height "170" ;
+        dbp:birthPlace  "Hanover Park, Illinois, U.S".
+
+<https://en.wikipedia.org/wiki/Ian_Crawford_(musician)>
+        dbo:birthDate  "1988-09-29" ;
+        dbo:alias    "Ian Crawford" ;
+        d:role         "guitarist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Ian_Crawford_2009.jpg/220px-Ian_Crawford_2009.jpg> ;
+        foaf:name      "Ian Miles Crawford" ;
+        dbp:height "182" ;
+        dbp:birthPlace  "Eugene, Oregon, U.S".
+
+<https://en.wikipedia.org/wiki/Spencer_Smith_(musician)>
+        dbo:birthDate  "1987-09-02" ;
+        dbo:alias    "Spencer Smith" ;
+        d:role         "drummer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Spencer_Smith_15.08.2009.jpg/220px-Spencer_Smith_15.08.2009.jpg> ;
+        foaf:name      "Spencer James Smith" ;
+        dbp:height "180" ;
+        dbp:birthPlace  "Denver, Colorado, U.S".
+
+<https://en.wikipedia.org/wiki/Nirvana_(band)>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "\n\t\tNirvana was an American rock band formed in Aberdeen, Washington in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers before recruiting Dave Grohl in 1990. \n\t\tNirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence modern rock and roll culture. \n\t\tIn the late 1980s, Nirvana established itself as part of the Seattle grunge scene, releasing its first album, Bleach, for the independent record label Sub Pop in 1989. \n\t\tThey developed a sound that relied on dynamic contrasts, often between quiet verses and loud, heavy choruses. \n\t\tAfter signing to major label DGC Records in 1991, Nirvana found unexpected mainstream success with \"Smells Like Teen Spirit\", the first single from their landmark second album Nevermind (1991). \n\t\tA cultural phenomenon of the 1990s, Nevermind was certified Diamond by the RIAA and is credited for ending the dominance of hair metal. \n\t\tCharacterized by their punk aesthetic, Nirvana's fusion of pop melodies with noise, combined with their themes of abjection and social alienation, brought them global popularity. \n\t\tFollowing extensive tours and the 1992 compilation album Incesticide and EP Hormoaning, the band released their highly anticipated third studio album, In Utero (1993). \n\t\tThe album topped both the US and UK album charts, and was acclaimed by critics. Nirvana disbanded following Cobain's suicide in April 1994. \n\t\tVarious posthumous releases have been overseen by Novoselic, Grohl, and Cobain's widow Courtney Love. \n\t\tThe posthumous live album MTV Unplugged in New York (1994) won Best Alternative Music Performance at the 1996 Grammy Awards. \n\t\tNirvana is one of the best-selling bands of all time, having sold more than 75 million records worldwide. \n\t\tDuring their three years as a mainstream act, Nirvana received an American Music Award, Brit Award and Grammy Award, as well as seven MTV Video Music Awards and two NME Awards. \n\t\tThey achieved five number-one hits on the Billboard Alternative Songs chart and four number-one albums on the Billboard 200. In 2004, Rolling Stone named Nirvana among the 100 greatest artists of all time. \n\t\tThey were inducted into the Rock and Roll Hall of Fame in their first year of eligibility in 2014.\n\t" ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Kurt_Cobain> , <https://en.wikipedia.org/wiki/Dave_Grohl> , <https://en.wikipedia.org/wiki/Krist_Novoselic> ;
+        dbp:yearsActive           "1987" ;
+        dbp:genre           "Rock" ;
+        d:facebookAccount   <https://www.facebook.com/Nirvana> ;
+        d:instagramAccount  <http://localhost/semantic%20web/tidakada.php> ;
+        d:twitterAccount    <https://twitter.com/Nirvana> ;
+        foaf:image          <https://siasatpartikelir.com/wp-content/uploads/2020/11/header-websitenv.jpg> ;
+        foaf:name           "Nirvana" .
+
+<https://en.wikipedia.org/wiki/Kurt_Cobain>
+        dbo:birthDate  "1967-02-20" ;
+        dbo:alias    "Kurt Cobain" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Kurt_Cobain_1991_cropped.jpg/220px-Kurt_Cobain_1991_cropped.jpg> ;
+        foaf:name      "Kurt Donald Cobain" ;
+        dbp:height "175" ;
+        dbp:birthPlace  "Aberdeen, Washington, U.S".
+
+<https://en.wikipedia.org/wiki/Dave_Grohl>
+        dbo:birthDate  "1969-01-14" ;
+        dbo:alias    "Late!" ;
+        d:role         "Drummer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/FoosDublin210819-2_%2848620472807%29_%28cropped%29.jpg/220px-FoosDublin210819-2_%2848620472807%29_%28cropped%29.jpg> ;
+        foaf:name      "David Eric Grohl" ;
+        dbp:height "183" ;
+        dbp:birthPlace  "Warren, Ohio, U.S".
+
+<https://en.wikipedia.org/wiki/Krist_Novoselic>
+        dbo:birthDate  "1965-05-16" ;
+        dbo:alias    "Ian Crawford" ;
+        d:role         "bassist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Krist_Novoselic.jpg/220px-Krist_Novoselic.jpg> ;
+        foaf:name      "Krist Anthony Novoselic" ;
+        dbp:height "201" ;
+        dbp:birthPlace  "Compton, California, U.S".
+
+<https://en.wikipedia.org/wiki/Imagine_Dragons>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "\n\t\tImagine Dragons is an American pop rock band from Las Vegas, Nevada, consisting of lead singer Dan Reynolds, lead guitarist Wayne Sermon, bassist Ben McKee, and drummer Daniel Platzman. \n\t\tThe band first gained exposure with the release of their single \"It's Time\", followed by their award-winning debut studio album Night Visions (2012), which resulted in the chart-topping singles \"Radioactive\" \n\t\tand \"Demons\". Rolling Stone named \"Radioactive\", which held the record for most weeks charted on the Billboard Hot 100, the \"biggest rock hit of the year\". MTV called them \"the year's biggest breakout band\", \n\t\tand Billboard named them their \"Breakthrough Band of 2013\" and \"Biggest Band of 2017\". and placed them at the top of their \"Year in Rock\" rankings for 2013, 2017, and 2018. Imagine Dragons topped the Billboard \n\t\tYear-End \"Top Artists â€“ Duo/Group\" category in 2018. The band's second studio album Smoke + Mirrors (2015) reached number one in the US, Canada and the UK. \n\t\tThe album was preceded by the top 40 single \"I Bet My Life\", and second and third singles, \"Gold\" and \"Shots\". \n\t\tThe band then embarked on a ten month long world tour, which led to a brief hiatus in 2016, with occasional performances and soundtrack contributions throughout the remainder of the year. \n\t\tThe band released their third studio album, Evolve (2017) which resulted in three chart-topping singles, \"Believer\", \"Thunder\", and \"Whatever It Takes\", also making them the artist with the most \n\t\tweeks at number-one on the Billboard Hot Rock Songs chart. The album reached the top five in many countries. After the Evolve World Tour was completed, Imagine Dragons released their fourth studio album Origins, \n\t\ton November 9, 2018. \"Natural\" and \"Zero\" were released as the first singles off the album. Afterwards, \"Machine\" and \"Bad Liar\" were also released. \n\t\tA previously released single titled \"Born to Be Yours\" was included on a deluxe version of the album. While all four albums were commercially successful, critical reception was mixed. \n\t\tImagine Dragons has won three American Music Awards, nine Billboard Music Awards, one Grammy Award, one MTV Video Music Award and one World Music Award. \n\t\tIn May 2014, the band was nominated for fourteen Billboard Music Awards, including Top Artist of the Year and a Milestone Award, which recognizes innovation and creativity of artists across different genres. \n\t\tIn April 2018, the band was nominated eleven more times for Billboard Music Awards. Imagine Dragons have sold 35 million RIAA certified singles in the US and 20 million albums worldwide. \n\t\tThey were the most streamed group of 2018 on Spotify and are the first rock act to have two songs, \"Believer\" and \"Thunder\" to surpass one billion streams each. \n\t\tImagine Dragons have the top three rock songs of the 2010s on the Billboard charts, \"Believer\", \"Thunder\", and \"Radioactive\". (en)\n\t" ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Dan_Reynolds_(singer)> , <https://en.wikipedia.org/wiki/Daniel_Platzman> , <https://en.wikipedia.org/wiki/Wayne_Sermon> , <https://en.wikipedia.org/wiki/Ben_McKee> ;
+        dbp:yearsActive           "2008" ;
+        dbp:genre           "Pop Rock" ;
+        d:facebookAccount   <https://www.facebook.com/ImagineDragons/> ;
+        d:instagramAccount  <https://www.instagram.com/imaginedragons/> ;
+        d:twitterAccount    <https://twitter.com/Imaginedragons> ;
+        foaf:image          <https://i.scdn.co/image/ab6761610000e5eb920dc1f617550de8388f368e> ;
+        foaf:name           "Imagine Dragons" .
+
+<https://en.wikipedia.org/wiki/Dan_Reynolds_(singer)>
+        dbo:birthDate  "1987-07-14" ;
+        dbo:alias    "Dan Reynolds" ;
+        d:role         "vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Dan_Reynolds1.jpg/220px-Dan_Reynolds1.jpg> ;
+        foaf:name      "Daniel Coulter Reynolds" ;
+        dbp:height "193" ;
+        dbp:birthPlace  "Las Vegas, Nevada, U.S".
+
+<https://en.wikipedia.org/wiki/Daniel_Platzman>
+        dbo:birthDate  "1986-09-28" ;
+        dbo:alias    "Daniel Platzman" ;
+        d:role         "drummer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Daniel_Platzman_-_Ilosaarirock_2013_2.jpg/220px-Daniel_Platzman_-_Ilosaarirock_2013_2.jpg> ;
+        foaf:name      "Daniel James Platzman" ;
+        dbp:height "180" ;
+        dbp:birthPlace  "Atlanta, Georgia, U.S".
+
+<https://en.wikipedia.org/wiki/Wayne_Sermon>
+        dbo:birthDate  "1984-06-15" ;
+        dbo:alias    "Wayne Sermon" ;
+        d:role         "guitarist " ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Positivus_2013_Imagine_Dragons_%289823061336%29.jpg/200px-Positivus_2013_Imagine_Dragons_%289823061336%29.jpg> ;
+        foaf:name      "Daniel Wayne Sermon" ;
+        dbp:height "178" ;
+        dbp:birthPlace  "American Fork, Utah, U.S".
+
+<https://en.wikipedia.org/wiki/Ben_McKee>
+        dbo:birthDate  "1985-04-07" ;
+        dbo:alias    "Ben McKee" ;
+        d:role         "bassist " ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Ben_McKee.jpg/220px-Ben_McKee.jpg> ;
+        foaf:name      "Benjamin Arthur McKee" ;
+        dbp:height "170" ;
+        dbp:birthPlace  "Forestville, California, U.S".
+
+<https://en.wikipedia.org/wiki/Migos>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "\n\t\tMigos are an American hip hop trio from Lawrenceville, Georgia, founded in 2008. The group is composed of three rappers known by their stage names Quavo, Offset, and Takeoff. \n\t\tThey are managed by Coach K, the former manager of Atlanta-based rappers Gucci Mane and Young Jeezy, and frequently collaborate with producers such as Zaytoven, DJ Durel, Murda Beatz, and Buddah Bless. \n\t\tMigos released their commercial debut single \"Versace\" in 2013, taken from their mixtape Y.R.N. (Young Rich Niggas). \n\t\tThey have gone on to release several more singles, including \"Fight Night\" (2014), \"Look at My Dab\" (2015), and their four Billboard Hot 100 top 10 entries \"Bad and Boujee\" (featuring Lil Uzi Vert) (2016), \n\t\tpeaking at number one, \"MotorSport\" (with Nicki Minaj and Cardi B) (2017), peaking at six, \"Stir Fry\" (2018), peaking at eight, and \"Walk It Talk It\" (featuring Drake) (2018), peaking at ten. \n\t\tMigos released their debut album Yung Rich Nation in July 2015, through Quality Control Music and 300 Entertainment. Their second album, Culture, was released in January 2017 also through both record labels, \n\t\tand debuted atop the US Billboard 200 chart. The group later signed a deal with Motown and Capitol Records in February 2017, and followed up the latter album with Culture II in January 2018, giving the group \n\t\ttheir second number one album in the United States. In 2021, the trio released their long-awaited fourth album Culture III, the third and final installment of their Culture trilogy.\n\t" ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Quavo> , <https://en.wikipedia.org/wiki/Offset_(rapper)> , <https://en.wikipedia.org/wiki/Takeoff_(rapper)> ;
+        dbp:yearsActive           "2008" ;
+        dbp:genre           "Hip-Hop" ;
+        d:facebookAccount   <https://www.facebook.com/THEMigosAtl/> ;
+        d:instagramAccount  <https://www.instagram.com/migos/> ;
+        d:twitterAccount    <https://twitter.com/migos> ;
+        foaf:image          <https://matamatamusik.com/wp-content/uploads/2020/07/migos-kicked-off-flight.jpg> ;
+        foaf:name           "Migos" .
+
+<https://en.wikipedia.org/wiki/Quavo>
+        dbo:birthDate  "1993-04-02" ;
+        dbo:alias    "Quavo" ;
+        d:role         "Rapper" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Quavo_performing_in_July_2021.png/220px-Quavo_performing_in_July_2021.png> ;
+        foaf:name      "Quavious Keyate Marshall" ;
+        dbp:height "179" ;
+        dbp:birthPlace  "Athens, Georgia, U.S".
+
+<https://en.wikipedia.org/wiki/Offset_(rapper)>
+        dbo:birthDate  "1991-12-04" ;
+        dbo:alias    "Offset" ;
+        d:role         "Rapper" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Offset_in_2019.png/220px-Offset_in_2019.png> ;
+        foaf:name      "Kiari Kendrell Cephus" ;
+        dbp:height "174" ;
+        dbp:birthPlace  "Lawrenceville, Georgia, U.S".
+
+<https://en.wikipedia.org/wiki/Takeoff_(rapper)>
+        dbo:birthDate  "1994-06-18" ;
+        dbo:alias    "Takeoff" ;
+        d:role         "Rapper" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Takeoff_performing_in_July_2021.png/220px-Takeoff_performing_in_July_2021.png> ;
+        foaf:name      "Kirshnik Khari Ball" ;
+        dbp:height "177" ;
+        dbp:birthPlace  "Lawrenceville, Georgia, U.S".
+
+<https://en.wikipedia.org/wiki/Linkin_Park>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "\n\t\tLinkin Park is an American rock band from Agoura Hills, California. The band's current lineup comprises vocalist/rhythm guitarist/keyboardist Mike Shinoda, lead guitarist Brad Delson, bassist Dave Farrell, \n\t\tDJ/turntablist Joe Hahn and drummer Rob Bourdon, all of whom are founding members. Vocalists Mark Wakefield and Chester Bennington are former members of the band. \n\t\tCategorized as alternative rock, Linkin Park's earlier music spanned a fusion of heavy metal and hip hop, while they later transitioned into more electronica â€” and pop-influenced music. \n\t\tFormed in 1996, Linkin Park rose to international fame with their debut studio album, Hybrid Theory (2000), which became certified Diamond by the Recording Industry Association of America (RIAA). \n\t\tReleased during the peak of the nu metal scene, the album's singles' heavy airplay on MTV led the singles \"One Step Closer\", \"Crawling\" and \"In the End\" all to chart highly on the Mainstream Rock chart; \n\t\tthe latter crossed over to the pop chart. Their second album, Meteora (2003), continued the band's success. The band explored experimental sounds on their third album, Minutes to Midnight (2007). \n\t\tBy the end of the decade, Linkin Park was among the most successful and popular rock acts. The band continued to explore a wider variation of musical types on their fourth album, A Thousand Suns (2010), \n\t\tlayering their music with more electronic sounds. The band's fifth album, Living Things (2012), combined musical elements from all of their previous records. Their sixth album, The Hunting Party (2014), \n\t\treturned to a heavier rock sound, and their seventh album, One More Light (2017), was their first pop-oriented record. \n\t\tLinkin Park went on a hiatus when longtime lead vocalist Bennington died by suicide in July 2017. In April 2020, bassist Dave Farrell revealed the band was working on new music. \n\t\tLinkin Park is among the best-selling bands of the 21st century and the world's best-selling music artists, having sold over 100 million records worldwide. \n\t\tThey have won two Grammy Awards, six American Music Awards, two Billboard Music Awards, four MTV Video Music Awards, 10 MTV Europe Music Awards and three World Music Awards. \n\t\tIn 2003, MTV2 named Linkin Park the sixth-greatest band of the music video era and the third-best of the new millennium. Billboard ranked Linkin Park No. 19 on the Best Artists of the Decade list. \n\t\tIn 2012, the band was voted as the greatest artist of the 2000s in a Bracket Madness poll on VH1. In 2014, the band was declared as \"The Biggest Rock Band in the World Right Now\" by Kerrang!.\n\t" ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Chester_Bennington> , <https://en.wikipedia.org/wiki/Mike_Shinoda> , <https://en.wikipedia.org/wiki/Joe_Hahn> , <https://en.wikipedia.org/wiki/Brad_Delson> , <https://en.wikipedia.org/wiki/Rob_Bourdon> , <https://en.wikipedia.org/wiki/Dave_Farrell> ;
+        dbp:yearsActive           "1996-01-01" ;
+        dbp:genre           "Rock" ;
+        d:facebookAccount   <https://www.facebook.com/linkinpark/> ;
+        d:instagramAccount  <https://www.instagram.com/linkinpark/> ;
+        d:twitterAccount    <https://twitter.com/linkinpark> ;
+        foaf:image          <https://www.linkinpark.com/sites/g/files/g2000010631/files/2020-08/84ijjkkdn2los98.jpg> ;
+        foaf:name           "Linkin Park" .
+
+<https://en.wikipedia.org/wiki/Chester_Bennington>
+        dbo:birthDate  "1976-03-20" ;
+        dbo:alias    "Chester Bennington" ;
+        d:role         "vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0327.jpg/220px-Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0327.jpg> ;
+        foaf:name      "Chester Charles Bennington " ;
+        dbp:height "178" ;
+        dbp:birthPlace  "Phoenix, Arizona, U.S".
+
+<https://en.wikipedia.org/wiki/Mike_Shinoda>
+        dbo:birthDate  "1977-02-11" ;
+        dbo:alias    "Mike Shinoda" ;
+        d:role         "Songwriter" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0450.jpg/220px-Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0450.jpg> ;
+        foaf:name      "Michael Kenji Shinoda" ;
+        dbp:height "180" ;
+        dbp:birthPlace  "Panorama City, Los Angeles, California U.S".
+
+<https://en.wikipedia.org/wiki/Joe_Hahn>
+        dbo:birthDate  "1977-03-15" ;
+        dbo:alias    "Mr. Hahn" ;
+        d:role         "DJ" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Joe-hahn-linkinpark-singapore-2011.cropped.jpg/220px-Joe-hahn-linkinpark-singapore-2011.cropped.jpg> ;
+        foaf:name      "Joseph Hahn" ;
+        dbp:height "175" ;
+        dbp:birthPlace  "Dallas, Texas, U.S".
+
+<https://en.wikipedia.org/wiki/Brad_Delson>
+        dbo:birthDate  "1977-12-01" ;
+        dbo:alias    "Big Bad Brad" ;
+        d:role         "guitarist " ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0285.jpg/220px-Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0285.jpg> ;
+        foaf:name      "Bradford Phillip Delson" ;
+        dbp:height "183" ;
+        dbp:birthPlace  "Agoura, California, U.S".
+
+<https://en.wikipedia.org/wiki/Rob_Bourdon>
+        dbo:birthDate  "1979-01-20" ;
+        dbo:alias    "Rob Bourdon" ;
+        d:role         "Drums" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0692.jpg/220px-Linkin_Park-Rock_im_Park_2014-_by_2eight_3SC0692.jpg> ;
+        foaf:name      "Robert Gregory Bourdon" ;
+        dbp:height "193" ;
+        dbp:birthPlace  "Calabasas, California, U.S".
+
+<https://en.wikipedia.org/wiki/Dave_Farrell>
+        dbo:birthDate  "1977-02-08" ;
+        dbo:alias    "Phoenix" ;
+        d:role         "bassist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Dave_Farrell_2014.JPG/220px-Dave_Farrell_2014.JPG> ;
+        foaf:name      "David Michael Farrell" ;
+        dbp:height "180" ;
+        dbp:birthPlace  "Plymouth, Massachusetts, U.S".
+
+<https://en.wikipedia.org/wiki/Clean_Bandit>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "\n            Clean Bandit are a British electronic music group formed in Cambridge, England in 2008. They have had four number 1 hits and ten top ten hits on the UK Singles Chart. They direct and produce their own music videos, many of which have been nominated for Brit Awards and VMAs, while two of them, Symphony and Rockabye, each have over 1 billion views on YouTube, with Rockabye having reached over 2.5 billion views. The group currently consists of founder Grace Chatto and brothers Jack and Luke Patterson. Jack Patterson is the principal songwriter and has been awarded two Ivor Novellos for the writing of â€œRather Be.â€ Many of their projects are known for blending elements of both classical and dance music, and featuring guest vocalists. Notable collaborators include Marina, Demi Lovato, Jess Glynne, Anne-Marie, Sean Paul, Zara Larsson, Julia Michaels, Luis Fonsi, Ellie Goulding, Iann Dior, Mabel, and Lizzo.\n            The band released their debut single \"A+E\" in 2012, followed by their 2013 single \"Mozart's House\", the latter of which reached number 17 on the UK Singles Chart. In January 2014, they scored their first UK chart topping single with \"Rather Be\", a collaboration with Jess Glynne. The song also reached number ten on the US Billboard Hot 100. In 2015, the song won the Grammy Award for Best Dance Recording. The band's debut album New Eyes was released in June 2014 and has received a gold certification from the BPI. Their 2016 single \"Rockabye\", which features Jamaican artist Sean Paul and singer Anne-Marie, became their second number one hit in the UK and the Christmas number one single for 2016. The song became an international chart topper for the band, additionally charting at number nine in the US. \"Symphony\" featuring Zara Larsson became their third UK number one single in 2017. Their second album, What Is Love?, was released in November 2018. As of 2016, Clean Bandit have sold over 13 million singles and 1.6 million albums worldwide.\n        " ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Grace_Chatto> , <https://marinaandthediamonds.fandom.com/wiki/Jack_Patterson> , <https://annemarieiam.fandom.com/wiki/Luke_Patterson> ;
+        dbp:yearsActive           "2008" ;
+        dbp:genre           "EDM" ;
+        d:facebookAccount   <https://www.facebook.com/cleanbandit/> ;
+        d:instagramAccount  <https://www.instagram.com/cleanbandit/> ;
+        d:twitterAccount    <https://twitter.com/cleanbandit/> ;
+        foaf:image          <https://www.thesun.co.uk/wp-content/uploads/2016/12/nintchdbpict0002903404911.jpg> ;
+        foaf:name           "Clean Bandit" .
+
+<https://en.wikipedia.org/wiki/Grace_Chatto>
+        dbo:birthDate  "1985-10-12" ;
+        dbo:alias    "Grace Chatto" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/1/13/Grace_Chatto_2014.jpg> ;
+        foaf:name      "Grace Chatto" ;
+        dbp:height "168" ;
+        dbp:birthPlace  "London, England".
+
+<https://marinaandthediamonds.fandom.com/wiki/Jack_Patterson>
+        dbo:birthDate  "1985-02-07" ;
+        dbo:alias    "Jack Patterson" ;
+        d:role         "Writer" ;
+        foaf:image     <https://audiomediainternational.com/wp-content/uploads/Screenshot-2021-02-08-at-14.41.03.png> ;
+        foaf:name      "Jack Patterson" ;
+        dbp:height "180" ;
+        dbp:birthPlace  "United Kingdom".
+
+<https://annemarieiam.fandom.com/wiki/Luke_Patterson>
+        dbo:birthDate  "1992-06-11" ;
+        dbo:alias    "Luke Patterson" ;
+        d:role         "Musician" ;
+        foaf:image     <https://static.wikia.nocookie.net/annemarieiam/images/9/9e/Luke_Patterson.jpg/revision/latest?cb=20180806172217> ;
+        foaf:name      "Luke Pattersono" ;
+        dbp:height "173" ;
+        dbp:birthPlace  "England".
+
+<https://en.wikipedia.org/wiki/Coldplay>
+        rdf:type            dbo:Band ;
+        dbo:abstract        "\n            Coldplay are a British rock band formed in London in 1996. The band consists of vocalist, rhythm guitarist, and pianist Chris Martin; lead guitarist Jonny Buckland; bassist Guy Berryman; drummer Will Champion; and creative director Phil Harvey. They met at University College London and began playing music together from 1996 to 1998, first calling themselves Pectoralz and then Starfish.\n            Coldplay released two EPs, Safety in 1998 and The Blue Room in 1999. The latter was their first release under a major record label, Parlophone. Coldplay achieved worldwide fame with the release of the song \"Yellow\" in 2000, followed in the same year by their debut album Parachutes, which was nominated for the Mercury Prize. The band's second album, A Rush of Blood to the Head (2002), was released to critical acclaim. Their next record, X and Y, was the best-selling album worldwide of 2005; the Brian Eno-produced fourth studio album, Viva la Vida or Death and All His Friends (2008), was the best-selling album of that year and earned the band three Grammy Awards. In 2011, Coldplay released their fifth studio album, Mylo Xyloto, which topped the charts in over 34 countries and was the UK's best-selling rock album of 2011. The band have since released Ghost Stories (2014), A Head Full of Dreams (2015), Everyday Life (2019) and Music of the Spheres (2021).\n            Coldplay have sold more than 100 million albums worldwide, making them one of the world's best-selling music artists.[8] They have won numerous awards throughout their career, including nine Brit Awards, seven MTV Video Music Awards, eight MTV Europe Music Awards and seven Grammy Awards from 35 nominations. The band's first three albumsâ€”Parachutes (2000), A Rush of Blood to the Head (2002), and X and Y (2005)â€”are among the best-selling albums in UK chart history.\n        " ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Chris_Martin> , <https://en.wikipedia.org/wiki/Jonny_Buckland> , <https://en.wikipedia.org/wiki/Guy_Berryman> , <https://en.wikipedia.org/wiki/Will_Champion> , <https://en.wikipedia.org/wiki/Phil_Harvey_(manager)> ;
+        dbp:yearsActive           "1996" ;
+        dbp:genre           "Pop-Rock" ;
+        d:facebookAccount   <https://www.facebook.com/coldplay/> ;
+        d:instagramAccount  <https://www.instagram.com/coldplay/> ;
+        d:twitterAccount    <https://twitter.com/coldplay/> ;
+        foaf:image          <https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Coldplay_2017%2C_cropped_01.jpg/1200px-Coldplay_2017%2C_cropped_01.jpg> ;
+        foaf:name           "Coldplay" .
+
+<https://en.wikipedia.org/wiki/Chris_Martin>
+        dbo:birthDate  "1977-02-03" ;
+        dbo:alias    "Chris Martin" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://cdn06.pramborsfm.com/storage/app/media/Prambors/Editorial/Chris%20Martin-20211015073303.jpg?tr=w-800> ;
+        foaf:name      "Chris Martin" ;
+        dbp:height "186" ;
+        dbp:birthPlace "Exeter, Devon, England".
+
+<https://en.wikipedia.org/wiki/Jonny_Buckland>
+        dbo:birthDate  "1985-10-12" ;
+        dbo:alias    "Jonny Buckland" ;
+        d:role         "Songwriter" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/c/c9/Jonny_Buckland%2C_2011.jpg> ;
+        foaf:name      "Jonny Buckland" ;
+        dbp:height "183" ;
+        dbp:birthPlace "Islington, London, England".
+
+<https://en.wikipedia.org/wiki/Guy_Berryman>
+        dbo:birthDate  "1977-11-09" ;
+        dbo:alias    "Guy Berryman" ;
+        d:role         "Guitarist" ;
+        foaf:image     <https://i.pinimg.com/originals/14/58/6c/14586cb93ec22c8dbb97c8cee14aa308.jpg> ;
+        foaf:name      "Guy Berryman" ;
+        dbp:height "175" ;
+        dbp:birthPlace "Kirkcaldy, Fife, Scotland".
+
+<https://en.wikipedia.org/wiki/Will_Champion>
+        dbo:birthDate  "1978-31-07" ;
+        dbo:alias    "Will Champion" ;
+        d:role         "Songwriter" ;
+        foaf:image     <https://m.media-amazon.com/images/M/MV5BMGQ3MDdjYjctZWNmNy00ZWJkLTg0MzYtNjI1YzM1ZTI0OGUzXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg> ;
+        foaf:name      "Will Champion" ;
+        dbp:height "180" ;
+        dbp:birthPlace "Southampton, Hampshire, England".
+
+<https://en.wikipedia.org/wiki/Phil_Harvey_(manager)>
+        dbo:birthDate  "1976-08-29" ;
+        dbo:alias    "Phil Harvey" ;
+        d:role         "Manager" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/en/3/35/Phil_Harvey_%282021%29.png> ;
+        foaf:name      "Phil Harveyo" ;
+        dbp:height "179" ;
+        dbp:birthPlace "England".
+
+<https://en.wikipedia.org/wiki/Maroon_5>
+        rdf:type             dbo:Band ;
+        dbo:abstract        "\n            Maroon 5 is an American pop rock band from Los Angeles It currently consists of lead vocalist Adam Levine, keyboardist and rhythm guitarist Jesse Carmichael, lead guitarist James Valentine, drummer Matt Flynn, keyboardist PJ Morton and multi-instrumentalist and occasional bassist Sam Farrar. Original members Levine, Carmichael, bassist Mickey Madden, and drummer Ryan Dusick first came together as Kara's Flowers in 1994, while they were still in high school.\n            After self-releasing their independent album We Like Digging?, the band signed to Reprise Records and released the album The Fourth World in 1997. The album garnered a tepid response, after which the record label dropped the band and the members focused on college. In 2001, the band re-emerged as Maroon 5, pursuing a different direction and adding guitarist Valenti The band signed with Octone Records, an independent record label with a separate joint venture relationship with J Records and released their debut album Songs About Jane in June 2002. Aided by the singles \"Harder to Breathe\", \"This Love\" and \"She Will Be Loved\", the album peaked at number six on the Billboard 200 chart and went quadruple platinum in 2005. In the same year, the band won the Grammy Award for Best New Artist. In 2006, Dusick left the band after suffering from serious wrist and shoulder injuries and was replaced by Matt Flynn.\n        " ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Adam_Levine> , <https://en.wikipedia.org/wiki/James_Valentine_(musician)> , <https://en.wikipedia.org/wiki/Jesse_Carmichael> , <https://en.wikipedia.org/wiki/Matt_Flynn_(musician)> , <https://en.wikipedia.org/wiki/PJ_Morton> , <https://en.wikipedia.org/wiki/Sam_Farrar> ;
+        dbp:yearsActive           "1994" ;
+        dbp:genre           "Pop-Rock" ;
+        d:facebookAccount   <https://www.facebook.com/maroon5/> ;
+        d:instagramAccount  <https://www.instagram.com/maroon5/> ;
+        d:twitterAccount    <https://twitter.com/maroon5/> ;
+        foaf:image          <https://karosatuklik.com/wp-content/uploads/2021/05/maroon5.jpg> ;
+        foaf:name           "Maroon 5" .
+
+<https://en.wikipedia.org/wiki/Adam_Levine>
+        dbo:birthDate  "1979-18-03" ;
+        dbo:alias    "Adam Levine" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/AdamLevine2011.jpg/220px-AdamLevine2011.jpg> ;
+        foaf:name      "Adam Levine" ;
+        dbp:height "182" ;
+        dbp:birthPlace "Los Angeles, California, U.S".
+
+<https://en.wikipedia.org/wiki/James_Valentine_(musician)>
+        dbo:birthDate  "1978-05-10" ;
+        dbo:alias    "James Valentine" ;
+        d:role         "Guitarist" ;
+        foaf:image     <https://static.wikia.nocookie.net/maroon5/images/5/59/James_valentine.jpg/revision/latest?cb=20150404020942> ;
+        foaf:name      "James Valentine" ;
+        dbp:height "189" ;
+        dbp:birthPlace "Lincoln, Nebraska, U.S".
+
+<https://en.wikipedia.org/wiki/Jesse_Carmichael>
+        dbo:birthDate  "1979-02-04" ;
+        dbo:alias    "Jesse Carmichael" ;
+        d:role         "Songwriter" ;
+        foaf:image     <https://i.pinimg.com/originals/cd/31/c0/cd31c0a46b8900d7d54e3163618759a9.jpg> ;
+        foaf:name      "Jesse Carmichael" ;
+        dbp:height "181" ;
+        dbp:birthPlace "Boulder, Colorado, U.S".
+
+<https://en.wikipedia.org/wiki/Matt_Flynn_(musician)>
+        dbo:birthDate  "1970-23-05" ;
+        dbo:alias    "Matt Flynn" ;
+        d:role         "Drummer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Mat_flynn_concert.jpg/1200px-Mat_flynn_concert.jpg> ;
+        foaf:name      "Matt Flynn" ;
+        dbp:height "188" ;
+        dbp:birthPlace "Woodstock, New York, U.S".
+
+<https://en.wikipedia.org/wiki/PJ_Morton>
+        dbo:birthDate  "1981-29-03" ;
+        dbo:alias    "PJ Morton" ;
+        d:role         "Producer" ;
+        foaf:image     <https://i.scdn.co/image/7c70f41fc0c38103438af953b6a335d75ff8c419> ;
+        foaf:name      "PJ Morton" ;
+        dbp:height "173" ;
+        dbp:birthPlace "New Orleans, Louisiana, U.S".
+
+<https://en.wikipedia.org/wiki/Sam_Farrar>
+        dbo:birthDate  "1978-29-06" ;
+        dbo:alias    "Sam Farrar" ;
+        d:role         "Guitarist" ;
+        foaf:image     <https://bingeddata.s3.amazonaws.com/uploads/2020/12/sam-farrar.jpg> ;
+        foaf:name      "Sam Farrar" ;
+        dbp:height "188" ;
+        dbp:birthPlace "Los Angeles, California, U.S".
+
+<https://en.wikipedia.org/wiki/One_Direction>
+        rdf:type             dbo:Band ;
+        dbo:abstract        "\n            One Direction, often shortened to 1D, are an English-Irish pop boy band formed in London, England in 2010. The group are composed of Niall Horan, Liam Payne, Harry Styles and Louis Tomlinson; former member Zayn Malik left the group in March 2015. The group signed with Simon Cowell's record label Syco Records after forming and finishing third in the seventh series of the British televised singing competition The X Factor in 2010.\n            Propelled to global success by social media, One Direction's five albums, Up All Night (2011), Take Me Home (2012), Midnight Memories (2013), Four (2014), and Made in the A.M. (2015), topped charts in several countries, and generated hit singles including \"What Makes You Beautiful\" (their first number one on the UK Singles Chart, and the highest debut for a British act on the US Billboard Hot 100 since 1998), \"Live While We're Young\", \"Best Song Ever\", \"Story of My Life\" and \"Drag Me Down\". After the release of Four, One Direction became the first band in the US Billboard 200 history to have their first four albums debut at number one. Their third album, Midnight Memories, was the best-selling album worldwide of 2013.\n            Considered teen idols, One Direction were often subject to fan hysteria. They embarked on four world tours, two of which were all-stadium. The band's Where We Are Tour, in support of Midnight Memories, was the highest-grossing concert tour in 2014, the highest-grossing tour by a vocal group in history, and the 15th highest-grossing concert tour of all time, grossing $290.2 million (unadjusted for inflation). The band went on hiatus in January 2016, allowing all members to pursue other projects.\n        " ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Harry_Styles> , <https://en.wikipedia.org/wiki/Niall_Horan> , <https://en.wikipedia.org/wiki/Liam_Payne> , <https://en.wikipedia.org/wiki/Louis_Tomlinson> ;
+        dbp:yearsActive           "2010" ;
+        dbp:genre           "Pop" ;
+        d:facebookAccount   <https://www.facebook.com/onedirectionmusic/> ;
+        d:instagramAccount  <https://www.instagram.com/onedirection/> ;
+        d:twitterAccount    <https://twitter.com/onedirection/> ;
+        foaf:image          <https://pbs.twimg.com/media/EeB8o3NWkAUygGZ.jpg> ;
+        foaf:name           "One Direction" .
+<https://en.wikipedia.org/wiki/Harry_Styles>
+        dbo:birthDate  "1994-02-01" ;
+        dbo:alias    "Harry Styles" ;
+        d:role         "Singer" ;
+        foaf:image     <https://m.media-amazon.com/images/M/MV5BMTUxMzU2MTk1OF5BMl5BanBnXkFtZTgwNzg4NjAwMzI@._V1_.jpg> ;
+        foaf:name      "Harry Edward Styles" ;
+        dbp:height "183" ;
+        dbp:birthPlace "Redditch, Worcestershire, England".
+
+<https://en.wikipedia.org/wiki/Niall_Horan>
+        dbo:birthDate  "1993-09-13" ;
+        dbo:alias    "Niall Horan" ;
+        d:role         "Singer" ;
+        foaf:image     <https://cdn.idntimes.com/content-images/community/2020/09/fromandroid-c5d365ab7896e2237c9911c414fddf4a.jpg> ;
+        foaf:name      "Niall James Horan" ;
+        dbp:height "173" ;
+        dbp:birthPlace "Mullingar, Westmeath, Ireland".
+
+<https://en.wikipedia.org/wiki/Liam_Payne>
+        dbo:birthDate  "1993-29-08" ;
+        dbo:alias    "Liam Payne" ;
+        d:role         "Singer" ;
+        foaf:image     <https://m.media-amazon.com/images/M/MV5BMjM1NTA0NDYzM15BMl5BanBnXkFtZTgwNzg5OTYyNjM@._V1_.jpg> ;
+        foaf:name      "Liam James Payne" ;
+        dbp:height "175" ;
+        dbp:birthPlace "Heath Town, Wolverhampton, England".
+
+<https://en.wikipedia.org/wiki/Louis_Tomlinson>
+        dbo:birthDate  "" ;
+        dbo:alias    "Louis Tomlinson" ;
+        d:role         "Singer" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Louis_Tomlinson_November_2014.jpg/640px-Louis_Tomlinson_November_2014.jpg> ;
+        foaf:name      "Louis William Tomlinson" ;
+        dbp:height "172" ;
+        dbp:birthPlace "Doncaster, South Yorkshire, England".
+
+<https://en.wikipedia.org/wiki/Galantis>
+        rdf:type             dbo:Band ;
+        dbo:abstract        "\n            Galantis is a Swedish electronic dance music production, songwriting and DJ duo consisting of Christian Karlsson and Linus EklÃ¶w. Karlsson is also known as Bloodshy as part of two other musical groups, a duo (Bloodshy and Avant) and a trio (Miike Snow). EklÃ¶w is known as Style of Eye.\n        " ;
+        dbo:bandMember      <https://en.wikipedia.org/wiki/Style_of_Eye> , <https://en.wikipedia.org/wiki/Christian_Karlsson_(DJ)> ;
+        dbp:yearsActive           "2012" ;
+        dbp:genre           "EDM" ;
+        d:facebookAccount   <https://www.facebook.com/wearegalantis/> ;
+        d:instagramAccount  <https://www.instagram.com/wearegalantis/> ;
+        d:twitterAccount    <https://twitter.com/wearegalantis/> ;
+        foaf:image          <https://creativedisc.com/web/wp-content/uploads/2020/02/Galantis.jpg> ;
+        foaf:name           "Galantis" .
+
+<https://en.wikipedia.org/wiki/Style_of_Eye>
+        dbo:birthDate  "1979-29-08" ;
+        dbo:alias    "Style of Eye" ;
+        d:role         "Songwriter" ;
+        foaf:image     <https://www.c-heads.com/wp-content/uploads/2017/11/IMG_5904.jpg> ;
+        foaf:name      "Johan Linus EklÃ¶we" ;
+        dbp:height "185" ;
+        dbp:birthPlace "Vallentuna, Stockholm, Sweden".
+
+<https://en.wikipedia.org/wiki/Christian_Karlsson_(DJ)>
+        dbo:birthDate  "1975-14-07" ;
+        dbo:alias    "Christian Karlsson" ;
+        d:role         "DJ" ;
+        foaf:image     <https://m.media-amazon.com/images/M/MV5BNzI3Njk5YmUtODQ2NS00MzcxLTg4YzctNDZkZGJmMzUyNjY5XkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_.jpg> ;
+        foaf:name      "Lars Christian Karlsson" ;
+        dbp:height "189";
+        dbp:birthPlace "Loftahammar, Kalmar, Sweden".
+
+<https://en.wikipedia.org/wiki/Brendon_Urie>
+        dbo:birthDate  "1987-04-12" ;
+        dbo:alias    "Brendon Urie" ;
+        d:role         "Vocalist" ;
+        foaf:image     <https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Panic_at_the_Disco_Im_Park_2016_%2811_von_11%29.jpg/220px-Panic_at_the_Disco_Im_Park_2016_%2811_von_11%29.jpg> ;
+        foaf:name      "Brendon Boyd Urie" ;
+        dbp:height "174" ;
+        dbp:birthPlace "St. George, Utah, U.S".
