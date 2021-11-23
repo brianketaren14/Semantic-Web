@@ -27,7 +27,7 @@
           <div class="navbar-nav ms-auto">
             <h5><a class="nav-link" aria-current="page" href="index.php">Home</a></h5>
             <h5><a class="nav-link active aktif" href="about.php">About</a></h5>
-            <h5><a class="nav-link" href="#">Kelompok Lain</a></h5>
+            <h5><a class="nav-link" href="kelompokLain.php">Kelompok Lain</a></h5>
           </div>
         </div>
       </div>
@@ -53,7 +53,7 @@
           </div>
           <div class="col-4">
             <div class="card text-dark text-center">
-              <img src="https://media-exp1.licdn.com/dms/image/C4E03AQExYnKWtBIykg/profile-displayphoto-shrink_200_200/0/1634723539178?e=1642032000&v=beta&t=dxLiKcHK7V6zl2Xuuu-jcMf6mTfo_u7hAAwEp-5_Ggk" class="card-img-top rounded-circle w-75 m-auto mt-3 mb-3" alt="..." />
+              <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFOmWjJXVJZtQ/profile-displayphoto-shrink_800_800/0/1637146752168?e=1643241600&v=beta&t=Zs8oEGxUeu-uRmj-6klBUv67ze3jayQYGXBodBzwFMw" class="card-img-top rounded-circle w-75 m-auto mt-3 mb-3" alt="..." />
               <div>
                 <h5>Brian</h5>
                 <p>201401041</p>
