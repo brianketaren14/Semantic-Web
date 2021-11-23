@@ -18,11 +18,12 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <title><?= $namaband ?></title>
+    <title>Band <?= $namaband ?></title>
     <link rel="icon" href="img/radiation.png" />
   </head>
   <body onload="startTime()">
-  <div class="loaderContainer">
+  
+    <div class="loaderContainer">
       <div class="loader"></div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -39,7 +40,7 @@
           <div class="navbar-nav ms-auto">
             <h5><a class="nav-link active aktif" aria-current="page" href="index.php">Home</a></h5>
             <h5><a class="nav-link" href="about.php">About</a></h5>
-            <h5><a class="nav-link" href="#">Kelompok Lain</a></h5>
+            <h5><a class="nav-link" href="kelompokLain.php">Kelompok Lain</a></h5>
           </div>
         </div>
       </div>
