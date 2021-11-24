@@ -35,7 +35,7 @@ require_once( "sparqllib.php" );
           <div class="navbar-nav ms-auto">
             <h5><a class="nav-link active aktif" aria-current="page" href="index.php">Home</a></h5>
             <h5><a class="nav-link" href="about.php">About</a></h5>
-            <h5><a class="nav-link" href="#">Kelompok Lain</a></h5>
+            <h5><a class="nav-link" href="kelompokLain.php">Kelompok Lain</a></h5>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ require_once( "sparqllib.php" );
               <div class="carousel-caption text-start">
                 <h1><?=$baris['nama']?></h1>
                 <p><?=$baris['genre']?></p>
-                <a class="btn btn-danger" href="tampilBand.php?namaband=<?=$baris['nama']?>">More</a>
+                <a class="btn btn-success" href="tampilBand.php?namaband=<?=$baris['nama']?>">More</a>
               </div>
             </div>
           <?php } else {?>
@@ -84,7 +84,7 @@ require_once( "sparqllib.php" );
             <div class="carousel-caption text-start">
               <h1><?=$baris['nama']?></h1>
               <p><?=$baris['genre']?></p>
-              <a class="btn btn-danger" href="tampilBand.php?namaband=<?=$baris['nama']?>">More</a>
+              <a class="btn btn-success" href="tampilBand.php?namaband=<?=$baris['nama']?>">More</a>
             </div>
             </div>
           <?php } $i++;  endwhile; ?>
@@ -127,25 +127,25 @@ require_once( "sparqllib.php" );
      ?>
       <div class="row">
         <div class="col">
-        <div class="band text-dark mb-5 ">
-        <div class="band-preview">
-        <img src="<?=$row['gambar']?>" class="card-img-top" alt="...">
-        </div>
-          <div class="band-info">
-            <div class="progress-container">
-              <div class="progress"></div>
+          <div class="band text-dark mb-5">
+            <div class="band-preview">
+              <img src="<?=$row['gambar']?>" class="card-img-top" alt="..." />
             </div>
-            <h1><?= $row['nama'] ?></h1>
-            <h5><?= $row['debut'] ?></h5>
-            <p><?= $row['genre'] ?></p>
-            <div class="medsos mt-4">
-              <a href="<?=$row['instagram']?>"><img src="img/instagram.png" alt="akun instagram <?=$row['nama']?>"  class="me-2"></a>
-              <a href="<?=$row['facebook']?>"><img src="img/facebook.png" alt="akun facebook <?=$row['nama']?>" class="me-2"></a>
-              <a href="<?=$row['twitter']?>"><img src="img/twitter.png" alt="akun twitter <?=$row['nama']?>" class="me-2"></a>
+            <div class="band-info">
+              <div class="progress-container">
+                <div class="progress"></div>
+              </div>
+              <h1><?= $row['nama'] ?></h1>
+              <h5><?= $row['debut'] ?></h5>
+              <p><?= $row['genre'] ?></p>
+              <div class="medsos mt-4">
+                <a href="<?=$row['instagram']?>"><img src="img/instagram.png" alt="akun instagram <?=$row['nama']?>" class="me-2" /></a>
+                <a href="<?=$row['facebook']?>"><img src="img/facebook.png" alt="akun facebook <?=$row['nama']?>" class="me-2" /></a>
+                <a href="<?=$row['twitter']?>"><img src="img/twitter.png" alt="akun twitter <?=$row['nama']?>" class="me-2" /></a>
+              </div>
+              <a href="tampilBand.php?namaband=<?=$row['nama']?>" class="tombol">More</a>
             </div>
-            <a href="tampilBand.php?namaband=<?=$row['nama']?>" class="tombol">More</a>
-        </div>
-      </div>
+          </div>
         </div>
       </div>
       <?php 
